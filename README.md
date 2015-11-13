@@ -14,9 +14,9 @@ npm install
 `fontdest` 為目錄
 ``````````````````````````
 var config = {
-	fontsrc: 'fonts/*.ttf',
-	fontdest: 'dist/fonts',
-	textsrc: 'src/index.html'
+	fontsrc: './demo/fonts/*.ttf',
+	fontdest:'./demo/dist/fonts',
+	textsrc: './demo/src/index.html'
 }
 ``````````````````````````
 
