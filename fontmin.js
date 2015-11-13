@@ -1,8 +1,9 @@
 var config = {
-	fontsrc: 'fonts/*.ttf',
-	fontdest: 'dist/fonts',
-	textsrc: 'index.html'
+	fontsrc: './demo/fonts/*.ttf',
+	fontdest:'./demo/dist/fonts',
+	textsrc: './demo/src/index.html'
 }
+
 
 
 

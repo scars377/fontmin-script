@@ -9,19 +9,20 @@
 npm install
 ``````````````````````````
 
-3. 設定 `fontmin.js` 裡面的 `config`，
-`fontsrc` 與 `textsrc`可為單一檔案或 glob
+3. 設定 `fontmin.js` 裡面的 `config`，  
+`fontsrc` 與 `textsrc`可為單一檔案或 glob，  
+`fontdest` 為目錄
 ``````````````````````````
 var config = {
 	fontsrc: 'fonts/*.ttf',
 	fontdest: 'dist/fonts',
-	textsrc: 'index.html'
+	textsrc: 'src/index.html'
 }
 ``````````````````````````
 
 ---
 
-- 當修改了 `textsrc` 裡設定過的檔案以後 (例如 `index.html` 內的文字變更了)
+- 當修改了 `textsrc` 裡設定過的檔案以後 (例如 `index.html` 內的文字變更了)  
 命令提示視窗執行以下指令，就可以轉換出新的字型檔
 ``````````````````````````
 node fontmin.js
