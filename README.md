@@ -1,5 +1,6 @@
 ##  fontmin-script
 ### 跑 script 以文字檔從字型檔中萃取出新的字型檔
+
 ---
 
 1. 請先確定有安裝 [node.js](https://nodejs.org/en/)
