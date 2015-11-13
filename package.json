@@ -1,0 +1,15 @@
+{
+  "name": "fontmin-script",
+  "version": "0.1.0",
+  "description": "fontmin script",
+  "main": "fontmin.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "scars",
+  "license": "ISC",
+  "devDependencies": {
+    "fontmin": "^0.8.1",
+    "read-glob": "^2.1.0"
+  }
+}
