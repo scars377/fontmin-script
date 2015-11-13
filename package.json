@@ -8,8 +8,16 @@
   },
   "author": "scars",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "fontmin": "^0.8.1",
     "read-glob": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scars377/fontmin-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scars377/fontmin-script/issues"
+  },
+  "homepage": "https://github.com/scars377/fontmin-script#readme"
 }

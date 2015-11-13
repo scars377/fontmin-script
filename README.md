@@ -4,20 +4,22 @@
 
 1. 請先確定有安裝 [node.js](https://nodejs.org/en/)
 
-2. 命令提示視窗執行
+2. 安裝 `fontmin` 跟 `read-glob` 兩個 package
 	```text
-	npm install
+	npm i fontmin read-glob
 	```
 
-3. 設定 `fontmin.js` 裡面的 `config`，  
+3. 把 `fontmin.js` 抓回去 (點擊進去以後選 RAW)
+
+4. 設定 `fontmin.js` 裡面的 `config`，  
 `fontsrc` 與 `textsrc`可為單一檔案或 glob，`fontdest` 為目錄
-	```text
-	var config = {
-		fontsrc: './demo/fonts/*.ttf',
-		fontdest:'./demo/dist/fonts',
-		textsrc: './demo/src/index.html'
-	}
-	```
+```text
+var config = {
+	fontsrc: './demo/fonts/*.ttf',
+	fontdest:'./demo/dist/fonts',
+	textsrc: './demo/src/index.html'
+}
+```
 
 ---
 
